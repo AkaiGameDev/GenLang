@@ -1,6 +1,8 @@
 # GenLang
 Procedural language generation for games
 
+[Documents](https://drive.google.com/drive/folders/1hwFurYApXAu_IjkHNm_bkzgL_6DLucYc?usp=sharing)
+
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
