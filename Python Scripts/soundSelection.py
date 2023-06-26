@@ -234,8 +234,12 @@ def create5VowelSystem():
 	output.append(IpaSound("OpenFrontUnroundedVowel", "a"))
 	return output
 
-def selectConsonantsNormal(allConsonants):
+def selectConsonantsNormal(allConsonants=[]):
 	# Follows distribution shown here: https://wals.info/chapter/1
+
+	# populate allConsonants with all IPA consonants if no input
+	if(len(allConsonants) <= 0):
+		allConsonants = createAllIpaConsonants()
 	
 	# First decide how many consonants to pick
 	# Decide which category we fall under, then pick a random number in that range
@@ -277,31 +281,9 @@ def selectConsonantsNormal(allConsonants):
 
 	return output
 
-
-if __name__ == '__main__':
-	# select consonants
-	selectedConsonants = selectConsonantsNormal(createAllIpaConsonants())
-
-	# select vowels
+def selectVowelsNormal():
 	if random.random() < 0.5:
 		selectedVowels = create3VowelSystem()
 	else:
 		selectedVowels = create5VowelSystem()
-
-	# debugging
-	print(f'selected {len(selectedConsonants)} consonants and {len(selectedVowels)} vowels:')
-	for c in selectedConsonants:
-		print(c)
-
-	print("\n")
-
-	for v in selectedVowels:
-		print(v)
-
-	for c in selectedConsonants:
-		print(repr(c))
-
-	print("\n")
-
-	for v in selectedVowels:
-		print(repr(v))
+	return selectedVowels
