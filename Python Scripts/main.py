@@ -1,5 +1,5 @@
-from soundSelection import *
-from wordFormation import *
+from phonologyGen import *
+from wordGen import *
 import json
 from json import JSONEncoder
 
@@ -16,7 +16,6 @@ def testWordGen():
 		print(w)
 
 def testPhonologyGen():
-
 	# select sounds
 	phonology = generatePhonologyNormal()
 	selectedConsonants = phonology[0]
@@ -39,5 +38,21 @@ def testPhonologyGen():
 	for v in selectedVowels:
 		print(repr(v))
 
+# def updateJsonFile():
+# 	consonants = createAllIpaConsonants()
+# 	output = []
+# 	for c in consonants:
+# 		output.append({
+# 			"descriptiveName": c.descriptiveName,
+# 			"ipaChar": c.ipaChar,
+# 			"commonness": c.commonness,
+# 			"phonation": c.phonation,
+# 			"manner": c.manner,
+# 			"place": c.place,
+# 			"pulmonic": c.pulmonic
+# 			})
+# 	f = open("newIpaConsonants.json", "w")
+# 	json.dump(output, f, indent=2)
+
 if __name__ == '__main__':
-	testPhonologyGen()
+	displayPhonology((createAllIpaConsonants(), []))
