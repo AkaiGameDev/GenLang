@@ -1,0 +1,647 @@
+[
+  {
+    "descriptiveName": "VoicelessBilabialNasal",
+    "ipaChar": "m\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedBilabialNasal",
+    "ipaChar": "m",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedLabiodentalNasal",
+    "ipaChar": "\u0271",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarNasal",
+    "ipaChar": "n\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarNasal",
+    "ipaChar": "n",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexNasal",
+    "ipaChar": "\u0273",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPalatalNasal",
+    "ipaChar": "\u0272\u030a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalNasal",
+    "ipaChar": "\u0272",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessVelarNasal",
+    "ipaChar": "\u014b\u030a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedVelarNasal",
+    "ipaChar": "\u014b",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedUvularNasal",
+    "ipaChar": "\u0274",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessBilabialPlosive",
+    "ipaChar": "p",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedBilabialPlosive",
+    "ipaChar": "b",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicelessLabiodentalPlosive",
+    "ipaChar": "p\u032a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLabiodentalPlosive",
+    "ipaChar": "b\u032a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessLinguolabialPlosive",
+    "ipaChar": "t\u033c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLinguolabialPlosive",
+    "ipaChar": "d\u033c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarPlosive",
+    "ipaChar": "t",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarPlosive",
+    "ipaChar": "d",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicelessRetroflexPlosive",
+    "ipaChar": "\u0288",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexPlosive",
+    "ipaChar": "\u0256",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPalatalPlosive",
+    "ipaChar": "c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalPlosive",
+    "ipaChar": "\u025f",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessVelarPlosive",
+    "ipaChar": "k",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedVelarPlosive",
+    "ipaChar": "g",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicelessUvularPlosive",
+    "ipaChar": "q",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedUvularPlosive",
+    "ipaChar": "\u0262",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "EpiglottalPlosive",
+    "ipaChar": "\u02a1",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "GlottalStop",
+    "ipaChar": "\u0294",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarSibilant",
+    "ipaChar": "s",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarSibilant",
+    "ipaChar": "z",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPostalveolarSibilant",
+    "ipaChar": "\u0283",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPostalveolarSibilant",
+    "ipaChar": "\u0292",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessRetroflexSibilant",
+    "ipaChar": "\u0282",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexSibilant",
+    "ipaChar": "\u0290",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolopalatalSibilant",
+    "ipaChar": "\u0255",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolopalatalSibilant",
+    "ipaChar": "\u0291",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessBilabialFricative",
+    "ipaChar": "\u0278",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedBilabialFricative",
+    "ipaChar": "\u03b2",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessLabiodentalFricative",
+    "ipaChar": "f",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedLabiodentalFricative",
+    "ipaChar": "v",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessLinguolabialFricative",
+    "ipaChar": "\u03b8\u033c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLinguolabialFricative",
+    "ipaChar": "\u00f0\u033c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessDentalFricative",
+    "ipaChar": "\u03b8",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedDentalFricative",
+    "ipaChar": "\u00f0",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarFricative",
+    "ipaChar": "\u03b8\u0320",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarFricative",
+    "ipaChar": "\u00f0\u0320",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPostalveolarFricative",
+    "ipaChar": "\u0279\u0320\u030a\u02d4",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPostalveolarFricative",
+    "ipaChar": "\u0279\u0320\u02d4",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessRetroflexFricative",
+    "ipaChar": "\u027b\u031d\u030a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexFricative",
+    "ipaChar": "\u027b\u031d",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPalatalFricative",
+    "ipaChar": "\u00e7",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalFricative",
+    "ipaChar": "\u029d",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessVelarFricative",
+    "ipaChar": "x",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedVelarFricative",
+    "ipaChar": "\u0263",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessUvularFricative",
+    "ipaChar": "\u03c7",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedUvularFricative",
+    "ipaChar": "\u0281",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPharyngealFricative",
+    "ipaChar": "\u0127",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPharyngealFricative",
+    "ipaChar": "\u0295",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessGlottalFricative",
+    "ipaChar": "h",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedGlottalFricative",
+    "ipaChar": "\u0266",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLabiodentalApproximant",
+    "ipaChar": "\u028b",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarApproximant",
+    "ipaChar": "\u0279",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexApproximant",
+    "ipaChar": "\u027b",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalApproximant",
+    "ipaChar": "j",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedVelarApproximant",
+    "ipaChar": "\u0270",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLabiodentalFlap",
+    "ipaChar": "\u2c71",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarFlap",
+    "ipaChar": "\u027e",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexFlap",
+    "ipaChar": "\u027d",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedBilabialTrill",
+    "ipaChar": "\u0299",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarTrill",
+    "ipaChar": "r\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarTrill",
+    "ipaChar": "r",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessUvularTrill",
+    "ipaChar": "\u0280\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedUvularTrill",
+    "ipaChar": "\u0280",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelssPharyngealTrill",
+    "ipaChar": "\u029c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPharyngealTrill",
+    "ipaChar": "\u02a2",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarLateralFricative",
+    "ipaChar": "\u026c",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarLateralFricative",
+    "ipaChar": "\u026e",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessRetroflexLateralFricative",
+    "ipaChar": "\ua78e",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarLateralApproximant",
+    "ipaChar": "l",
+    "commonness": "common"
+  },
+  {
+    "descriptiveName": "VoicedRetroflexLateralApproximant",
+    "ipaChar": "\u026d",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalLateralApproximant",
+    "ipaChar": "\u028e",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedVelarLateralApproximant",
+    "ipaChar": "\u029f",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedUvularLateralApproximant",
+    "ipaChar": "\u029f\u0320",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarLateralFlap",
+    "ipaChar": "\u027a\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarLateralFlap",
+    "ipaChar": "\u027a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalLateralFlap",
+    "ipaChar": "\u028e\u0306",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "BilabialEjectiveStop",
+    "ipaChar": "p\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "AlveolarEjectiveStop",
+    "ipaChar": "t\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "RetroflexEjectiveStop",
+    "ipaChar": "\u0288\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "PalatalEjectiveStop",
+    "ipaChar": "c\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VelarEjectiveStop",
+    "ipaChar": "k\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "UvularEjectiveStop",
+    "ipaChar": "q\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "EpiglottalEjective",
+    "ipaChar": "\u02a1\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "BilabialEjectiveFricative",
+    "ipaChar": "\u0278\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "LabiodentalEjectiveFricative",
+    "ipaChar": "f\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "DentalEjectiveFricative",
+    "ipaChar": "\u03b8\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "AlveolarEjectiveFricative",
+    "ipaChar": "s\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "PostalveolarEjectiveFricative",
+    "ipaChar": "\u0283\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "RetroflexEjectiveFricative",
+    "ipaChar": "\u0282\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "PalatalEjectiveFricative",
+    "ipaChar": "\u0255\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VelarEjectiveFricative",
+    "ipaChar": "x\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "UvularEjectiveFricative",
+    "ipaChar": "\u03c7\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "AlveolarLateralEjectiveFricative",
+    "ipaChar": "\u026c\u02bc",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessBilabialClick",
+    "ipaChar": "k\u0361\u0298",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessDentalClick",
+    "ipaChar": "k\u0361\u01c0",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarClick",
+    "ipaChar": "k\u0361\u01c3",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPalatalClick",
+    "ipaChar": "k\u0361\u01c2",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedBilabialClick",
+    "ipaChar": "\u0261\u0361\u0298",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedDentalClick",
+    "ipaChar": "\u0261\u0361\u01c0",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarClick",
+    "ipaChar": "\u0261\u0361\u01c3",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalClick",
+    "ipaChar": "\u0261\u0361\u01c2",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedNasalBilabialClick",
+    "ipaChar": "\u014b\u0361\u0298",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedNasalDentalClick",
+    "ipaChar": "\u014b\u0361\u01c0",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedNasalAlveolarClick",
+    "ipaChar": "\u014b\u0361\u01c3",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedNasalPalatalClick",
+    "ipaChar": "\u014b\u0361\u01c2",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessLateralVelarClick",
+    "ipaChar": "k\u0361\u01c1",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLateralVelarClick",
+    "ipaChar": "\u0261\u0361\u01c1",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedNasalLateralVelarClick",
+    "ipaChar": "\u014b\u0361\u01c1",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedBilabialImplosive",
+    "ipaChar": "\u0253",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessBilabialImplosive",
+    "ipaChar": "\u0253\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedAlveolarImplosive",
+    "ipaChar": "\u0257",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessAlveolarImplosive",
+    "ipaChar": "\u0257\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedPalatalImplosive",
+    "ipaChar": "\u0284",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessPalatalImplosive",
+    "ipaChar": "\u0284\u030a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedVelarImplosive",
+    "ipaChar": "\u0260",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessVelarImplosive",
+    "ipaChar": "\u0260\u030a",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicelessUvularImplosive",
+    "ipaChar": "\u029b\u0325",
+    "commonness": "normal"
+  },
+  {
+    "descriptiveName": "VoicedLabialVelarApproximant",
+    "ipaChar": "w",
+    "commonness": "normal"
+  }
+]

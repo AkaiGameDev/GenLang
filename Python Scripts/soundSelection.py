@@ -16,6 +16,8 @@
 import numpy as np
 import random
 import math
+import json
+from json import JSONEncoder
 
 class IpaSound:
 	def __init__(self, descriptiveName, ipaChar, commonness="normal"):
@@ -24,6 +26,10 @@ class IpaSound:
 		self.commonness = commonness
 		self.manner = []
 		self.place = []
+		if "Vowel" in descriptiveName:
+			self.type = "vowel"
+		else:
+			self.type = "consonant"
 		if "Voiced" in descriptiveName:
 			self.phonation = "voiced"
 		else:
@@ -60,7 +66,7 @@ class IpaSound:
 			self.place.append("dental")
 		if "Alveolar" in descriptiveName:
 			self.place.append("alveolar")
-		if "Postalveolar" in descriptiveName:
+		if "Postalveolar" in descriptiveName or "Alveolopalatal":
 			self.place.append("postalveolar")
 		if "Retroflex" in descriptiveName:
 			self.place.append("retroflex")
@@ -74,11 +80,18 @@ class IpaSound:
 			self.place.append("pharyngeal")
 		if "Glottal" in descriptiveName:
 			self.place.append("glottal")
+
+		if self.type == "consonant" and (len(self.place) <= 0 or len(self.manner) <= 0):
+			print(self.descriptiveName + " was not initialized correctly")
 	def __str__(self):
 		return self.ipaChar
 	def __repr__(self):
-		return f'This sound\'s IPA character is {self.ipaChar}, its descriptiveName is {self.descriptiveName}, \nits place of articulation is {self.place}, and its manner of articulation is {self.manner}\n'
-		# return self.ipaChar
+		if self.type == "consonant":
+			return f'This sound\'s IPA character is {self.ipaChar}, its descriptiveName is {self.descriptiveName}, \nits place of articulation is {self.place}, and its manner of articulation is {self.manner}'
+		elif self.type == "vowel":
+			return f'This sound\'s IPA character is {self.ipaChar}, its descriptiveName is {self.descriptiveName}'
+		else:
+			return f'This sound was imported incorrectly, its descriptiveName is {self.descriptiveName}'
 
 def createAllIpaConsonants():
 	# TODO: finish adding consonants
@@ -86,136 +99,11 @@ def createAllIpaConsonants():
 	# https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Consonants
 	# consonants described as "extremely rare" are excluded
 	# consonants described as likely only existing in allophones are also excluded
+	f = open("ipaConsonants.json", "r")
+	dicts = json.load(f)
 	output = []
-	output.append(IpaSound("VoicelessBilabialNasal", "m̥"))
-	output.append(IpaSound("VoicedBilabialNasal", "m", "common"))
-	output.append(IpaSound("VoicedLabiodentalNasal", "ɱ"))
-	output.append(IpaSound("VoicelessAlveolarNasal", "n̥"))
-	output.append(IpaSound("VoicedAlveolarNasal", "n", "common"))
-	output.append(IpaSound("VoicedRetroflexNasal", "ɳ"))
-	output.append(IpaSound("VoicelessPalatalNasal", "ɲ̊"))
-	output.append(IpaSound("VoicedPalatalNasal", "ɲ"))
-	output.append(IpaSound("VoicelessVelarNasal", "ŋ̊"))
-	output.append(IpaSound("VoicedVelarNasal", "ŋ"))
-	output.append(IpaSound("VoicedUvularNasal", "ɴ"))
-	output.append(IpaSound("VoicelessBilabialPlosive", "p", "common"))
-	output.append(IpaSound("VoicedBilabialPlosive", "b", "common"))
-	output.append(IpaSound("VoicelessLabiodentalPlosive", "p̪"))
-	output.append(IpaSound("VoicedLabiodentalPlosive", "b̪"))
-	output.append(IpaSound("VoicelessLinguolabialPlosive", "t̼"))
-	output.append(IpaSound("VoicedLinguolabialPlosive", "d̼"))
-	output.append(IpaSound("VoicelessAlveolarPlosive", "t", "common"))
-	output.append(IpaSound("VoicedAlveolarPlosive", "d", "common"))
-	output.append(IpaSound("VoicelessRetroflexPlosive", "ʈ"))
-	output.append(IpaSound("VoicedRetroflexPlosive", "ɖ"))
-	output.append(IpaSound("VoicelessPalatalPlosive", "c"))
-	output.append(IpaSound("VoicedPalatalPlosive", "ɟ"))
-	output.append(IpaSound("VoicelessVelarPlosive", "k", "common"))
-	output.append(IpaSound("VoicedVelarPlosive", "g", "common"))
-	output.append(IpaSound("VoicelessUvularPlosive", "q"))
-	output.append(IpaSound("VoicedUvularPlosive", "ɢ"))
-	output.append(IpaSound("EpiglottalPlosive", "ʡ"))
-	output.append(IpaSound("GlottalStop", "ʔ"))
-	output.append(IpaSound("VoicelessAlveolarSibilant", "s", "common"))
-	output.append(IpaSound("VoicedAlveolarSibilant", "z"))
-	output.append(IpaSound("VoicelessPostalveolarSibilant", "ʃ"))
-	output.append(IpaSound("VoicedPostalveolarSibilant", "ʒ"))
-	output.append(IpaSound("VoicelessRetroflexSibilant", "ʂ"))
-	output.append(IpaSound("VoicedRetroflexSibilant", "ʐ"))
-	output.append(IpaSound("VoicelessAlveolopalatalSibilant", "ɕ"))
-	output.append(IpaSound("VoicedAlveolopalatalSibilant", "ʑ"))
-	output.append(IpaSound("VoicelessBilabialFricative", "ɸ"))
-	output.append(IpaSound("VoicedBilabialFricative", "β"))
-	output.append(IpaSound("VoicelessLabiodentalFricative", "f", "common"))
-	output.append(IpaSound("VoicedLabiodentalFricative", "v"))
-	output.append(IpaSound("VoicelessLinguolabialFricative", "θ̼"))
-	output.append(IpaSound("VoicedLinguolabialFricative", "ð̼"))
-	output.append(IpaSound("VoicelessDentalFricatvie", "θ"))
-	output.append(IpaSound("VoicedDentalFricative", "ð"))
-	output.append(IpaSound("VoicelessAlveolarFricative", "θ̠"))
-	output.append(IpaSound("VoicedAlveolarFricative", "ð̠"))
-	output.append(IpaSound("VoicelessPostalveolarFricative", "ɹ̠̊˔"))
-	output.append(IpaSound("VoicedPostalveolarFricative", "ɹ̠˔"))
-	output.append(IpaSound("VoicelessRetroflexFricative", "ɻ̝̊"))
-	output.append(IpaSound("VoicedRetroflexFricative", "ɻ̝"))
-	output.append(IpaSound("VoicelessPalatalFricative", "ç"))
-	output.append(IpaSound("VoicedPalatalFricative", "ʝ"))
-	output.append(IpaSound("VoicelessVelarFricative", "x"))
-	output.append(IpaSound("VoicedVelarFricative", "ɣ"))
-	output.append(IpaSound("VoicelessUvularFricative", "χ"))
-	output.append(IpaSound("VoicedUvularFricative", "ʁ"))
-	output.append(IpaSound("VoicelessPharyngealFricative", "ħ"))
-	output.append(IpaSound("VoicedPharyngealFricative", "ʕ"))
-	output.append(IpaSound("VoicelessGlottalFricative", "h"))
-	output.append(IpaSound("VoicedGlottalFricative", "ɦ"))
-	output.append(IpaSound("VoicedLabiodentalApproximant", "ʋ"))
-	output.append(IpaSound("VoicedAlveolarApproximant", "ɹ"))
-	output.append(IpaSound("VoicedRetroflexApproximant", "ɻ"))
-	output.append(IpaSound("VoicedPalatalApproximant", "j", "common"))
-	output.append(IpaSound("VoicedVelarApproximant", "ɰ"))
-	output.append(IpaSound("VoicedLabiodentalFlap", "ⱱ"))
-	output.append(IpaSound("VoicedAlveolarFlap", "ɾ"))
-	output.append(IpaSound("VoicedRetroflexFlap", "ɽ"))
-	output.append(IpaSound("VoicedBilabialTrill", "ʙ"))
-	output.append(IpaSound("VoicelessAlveolarTrill", "r̥"))
-	output.append(IpaSound("VoicedAlveolarTrill", "r"))
-	output.append(IpaSound("VoicelessUvularTrill", "ʀ̥"))
-	output.append(IpaSound("VoicedUvularTrill", "ʀ"))
-	output.append(IpaSound("VoicelssPharyngealTrill", "ʜ"))
-	output.append(IpaSound("VoicedPharyngealTrill", "ʢ"))
-	output.append(IpaSound("VoicelessAlveolarLateralFricative", "ɬ"))
-	output.append(IpaSound("VoicedAlveolarLateralFricative", "ɮ"))
-	output.append(IpaSound("VoicelessRetroflexLateralFricative", "ꞎ"))
-	output.append(IpaSound("VoicedAlveolarLateralApproximant", "l", "common"))
-	output.append(IpaSound("VoicedRetroflexLateralApproximant", "ɭ"))
-	output.append(IpaSound("VoicedPalatalLateralApproximant", "ʎ"))
-	output.append(IpaSound("VoicedVelarLateralApproximant", "ʟ"))
-	output.append(IpaSound("VoicedUvularLateralApproximant", "ʟ̠"))
-	output.append(IpaSound("VoicelessAlveolarLateralFlap", "ɺ̥"))
-	output.append(IpaSound("VoicedAlveolarLateralFlap", "ɺ"))
-	output.append(IpaSound("VoicedPalatalLateralFlap", "ʎ̆"))
-	output.append(IpaSound("BilabialEjectiveStop", "pʼ"))
-	output.append(IpaSound("AlveolarEjectiveStop", "tʼ"))
-	output.append(IpaSound("RetroflexEjectiveStop", "ʈʼ"))
-	output.append(IpaSound("PalatalEjectiveStop", "cʼ"))
-	output.append(IpaSound("VelarEjectiveStop", "kʼ"))
-	output.append(IpaSound("UvularEjectiveStop", "qʼ"))
-	output.append(IpaSound("EpiglottalEjective", "ʡʼ"))
-	output.append(IpaSound("BilabialEjectiveFricative", "ɸʼ"))
-	output.append(IpaSound("LabiodentalEjectiveFricative", "fʼ"))
-	output.append(IpaSound("DentalEjectiveFricative", "θʼ"))
-	output.append(IpaSound("AlveolarEjectiveFricative", "sʼ"))
-	output.append(IpaSound("PostalveolarEjectiveFricative", "ʃʼ"))
-	output.append(IpaSound("RetroflexEjectiveFricative", "ʂʼ"))
-	output.append(IpaSound("PalatalEjectiveFricative", "ɕʼ"))
-	output.append(IpaSound("VelarEjectiveFricative", "xʼ"))
-	output.append(IpaSound("UvularEjectiveFricative", "χʼ"))
-	output.append(IpaSound("AlveolarLateralEjectiveFricative", "ɬʼ"))
-	output.append(IpaSound("VoicelessBilabialClick", "k͡ʘ"))
-	output.append(IpaSound("VoicelessDentalClick", "k͡ǀ"))
-	output.append(IpaSound("VoicelessAlveolarClick", "k͡ǃ"))
-	output.append(IpaSound("VoicelessPalatalClick", "k͡ǂ"))
-	output.append(IpaSound("VoicedBilabialClick", "ɡ͡ʘ"))
-	output.append(IpaSound("VoicedDentalClick", "ɡ͡ǀ"))
-	output.append(IpaSound("VoicedAlveolarClick", "ɡ͡ǃ"))
-	output.append(IpaSound("VoicedPalatalClick", "ɡ͡ǂ"))
-	output.append(IpaSound("VoicedNasalBilabialClick", "ŋ͡ʘ"))
-	output.append(IpaSound("VoicedNasalDentalClick", "ŋ͡ǀ"))
-	output.append(IpaSound("VoicedNasalAlveolarClick", "ŋ͡ǃ"))
-	output.append(IpaSound("VoicedNasalPalatalClick", "ŋ͡ǂ"))
-	output.append(IpaSound("VoicelessLateralVelarClick", "k͡ǁ"))
-	output.append(IpaSound("VoicedLateralVelarClick", "ɡ͡ǁ"))
-	output.append(IpaSound("VoicedNasalLateralVelarClick", "ŋ͡ǁ"))
-	output.append(IpaSound("VoicedBilabialImplosive", "ɓ"))
-	output.append(IpaSound("VoicelessBilabialImplosive", "ɓ̥"))
-	output.append(IpaSound("VoicedAlveolarImplosive", "ɗ"))
-	output.append(IpaSound("VoicelessAlveolarImplosive", "ɗ̥"))
-	output.append(IpaSound("VoicedPalatalImplosive", "ʄ"))
-	output.append(IpaSound("VoicelessPalatalImplosive", "ʄ̊"))
-	output.append(IpaSound("VoicedVelarImplosive", "ɠ"))
-	output.append(IpaSound("VoicelessVelarImplosive", "ɠ̊"))
-	output.append(IpaSound("VoicelessUvularImplosive", "ʛ̥"))
-	output.append(IpaSound("VoicedLabialVelarApproximant", "w"))
+	for d in dicts:
+		output.append(IpaSound(d['descriptiveName'], d['ipaChar'], d['commonness']))
 	return output
 
 def create3VowelSystem():
@@ -287,3 +175,8 @@ def selectVowelsNormal():
 	else:
 		selectedVowels = create5VowelSystem()
 	return selectedVowels
+
+def generatePhonologyNormal():
+	selectedConsonants = selectConsonantsNormal()
+	selectedVowels = selectVowelsNormal()
+	return (selectedConsonants, selectedVowels)

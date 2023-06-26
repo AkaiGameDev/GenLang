@@ -1,26 +1,26 @@
 from soundSelection import *
 from wordFormation import *
+import json
+from json import JSONEncoder
 
 def testWordGen():
 	# select sounds
-	selectedSounds = selectSounds()
-	selectedConsonants = selectedSounds[0]
-	selectedVowels = selectedSounds[1]
+	phonology = generatePhonologyNormal()
 
 	selectedWords = []
 
 	for i in range(10):
-		selectedWords.append(generateWord(selectedConsonants, selectedVowels, "nomeaning"))
+		selectedWords.append(generateWord(phonology, "nomeaning"))
 
 	for w in selectedWords:
 		print(w)
 
-def testSoundSelection():
+def testPhonologyGen():
 
 	# select sounds
-	selectedSounds = selectSounds()
-	selectedConsonants = selectedSounds[0]
-	selectedVowels = selectedSounds[1]
+	phonology = generatePhonologyNormal()
+	selectedConsonants = phonology[0]
+	selectedVowels = phonology[1]
 
 	# debugging
 	print(f'selected {len(selectedConsonants)} consonants and {len(selectedVowels)} vowels:')
@@ -34,16 +34,10 @@ def testSoundSelection():
 
 	for c in selectedConsonants:
 		print(repr(c))
-
-	print("\n")
+		print()
 
 	for v in selectedVowels:
 		print(repr(v))
 
-def selectSounds():
-	selectedConsonants = selectConsonantsNormal()
-	selectedVowels = selectVowelsNormal()
-	return (selectedConsonants, selectedVowels)
-
 if __name__ == '__main__':
-	testWordGen()
+	testPhonologyGen()
