@@ -30,20 +30,24 @@ class IpaSound:
 
 
 class IpaConsonant(IpaSound):
-	def __init__(self, descriptiveName, ipaChar, commonness, phonation, manner, place, pulmonic):
+	def __init__(self, descriptiveName, ipaChar, commonness, phonation, manner, place, type):
 		self.descriptiveName = descriptiveName
 		self.ipaChar = ipaChar
 		self.commonness = commonness
 		self.phonation = phonation
 		self.manner = manner
 		self.place = place
-		self.pulmonic = pulmonic
+		self.type = type
 	def __repr__(self):
 		return f'This sound\'s IPA character is {self.ipaChar}, its descriptiveName is {self.descriptiveName}, \nits place of articulation is {self.place}, and its manner of articulation is {self.manner}'
 
 class IpaVowel(IpaSound):
-	def __init__(self, descriptiveName, ipaChar):
-		super().__init__(descriptiveName, ipaChar)
+	def __init__(self, descriptiveName, ipaChar, height, roundedness, backness):
+		self.descriptiveName = descriptiveName
+		self.ipaChar = ipaChar
+		self.height = height
+		self.roundedness = roundedness
+		self.backness = backness
 
 def createAllIpaConsonants():
 	# TODO: finish adding consonants
@@ -55,24 +59,36 @@ def createAllIpaConsonants():
 	dicts = json.load(f)
 	output = []
 	for d in dicts:
-		output.append(IpaConsonant(d['descriptiveName'], d['ipaChar'], d['commonness'], d['phonation'], d['manner'], d['place'], d['pulmonic']))
+		output.append(IpaConsonant(d['descriptiveName'], d['ipaChar'], d['commonness'], d['phonation'], d['manner'], d['place'], d['type']))
+	return output
+
+def createAllIpaVowels():
+	f = open("ipaVowels.json", "r")
+	dicts = json.load(f)
+	output = []
+	for d in dicts:
+		output.append(IpaVowel(d['descriptiveName'], d['ipaChar'], d['height'], d['roundedness'], d['backness']))
 	return output
 
 def create3VowelSystem():
+	allvowels = createAllIpaVowels()
 	output = []
-	output.append(IpaVowel("CloseFrontUnroundedVowel", "i"))
-	output.append(IpaVowel("CloseBackRoundedVowel", "u"))
-	output.append(IpaVowel("OpenFrontUnroundedVowel", "a"))
+	for v in allvowels:
+		if v.ipaChar == "i" or v.ipaChar == "u" or v.ipaChar == "a":
+			output.append(v)
 	return output
 
 def create5VowelSystem():
+	allvowels = createAllIpaVowels()
 	output = []
-	output.append(IpaVowel("CloseFrontUnroundedVowel", "i"))
-	output.append(IpaVowel("CloseBackRoundedVowel", "u"))
-	output.append(IpaVowel("CloseMidFrontUnroundedVowel", "e"))
-	output.append(IpaVowel("CloseMidBackRoundedVowel", "o"))
-	output.append(IpaVowel("OpenFrontUnroundedVowel", "a"))
+	for v in allvowels:
+		if v.ipaChar == "i" or v.ipaChar == "u" or v.ipaChar == "e" or v.ipaChar == "o" or v.ipaChar == "a":
+			output.append(v)
 	return output
+
+def create6VowelSystem():
+	output = []
+
 
 def selectConsonantsNormal(allConsonants=[]):
 	# Follows distribution shown here: https://wals.info/chapter/1
@@ -137,6 +153,14 @@ def displayPhonology(phonology):
 	consonants = phonology[0]
 	vowels = phonology[1]
 
+	print("Pulmonic Consonants")
+	print("In places where letters appear in pairs, the letter to the right respresents a voiced consonant, and the letter to the left represents an unvoiced consonant")
+	print("In places where letters appear by themselves, the letter represents a voiced consonant")
+	displayPulmonicConsonants(consonants)
+	print("Non-pulmonic Consonants")
+	displayNonpulmonicConsonants(consonants)
+
+def displayPulmonicConsonants(consonants):
 	pulmonicConsonants = [["", "Bilabial", "Labio-dental", "Linguo-labial", "Dental", "Alveolar", "Post-alveolar", "Retro-flex", "Palatal", "Velar", "Uvular", "Pharyngeal/epiglottal", "Glottal"]]
 	pulmonicConsonants.append(["Nasal", ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""]])
 	pulmonicConsonants.append(["Plosive", ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""]])
@@ -182,7 +206,7 @@ def displayPhonology(phonology):
 		rowHeaders.append(r[0])
 
 	for c in consonants:
-		if c.pulmonic:
+		if c.type == "pulmonic":
 			column = pulmonicConsonants[0].index(pulmonicPlaceDict[c.place[0]])
 			row = rowHeaders.index(pulmonicMannerDict[c.manner[0]])
 			if c.phonation == "voiceless":
@@ -192,15 +216,58 @@ def displayPhonology(phonology):
 			else:
 				print(f'{c.descriptiveName} has a phonation that is not set correctly')
 
-	for i, r in enumerate(pulmonicConsonants):
-		for j, e in enumerate(r):
-			if e == ['', '']:
-				pulmonicConsonants[i][j] = ''
-			elif type(e) is list and e[0] == '':
-				pulmonicConsonants[i][j] = e[1]
-			elif type(e) is list and e[1] == '':
-				pulmonicConsonants[i][j] = e[0]
-			elif type(e) is list:
-				pulmonicConsonants[i][j] = e[0] + '  ' + e[1]
+	trimTable(pulmonicConsonants)
 
 	print(tabulate(pulmonicConsonants, tablefmt="simple_grid"))
+
+def displayNonpulmonicConsonants(consonants):
+	output = [["", "", "Bilabial", "Labio-dental", "Linguo-labial", "Dental", "Alveolar", "Post-alveolar", "Retro-flex", "Palatal", "Velar", "Uvular", "Pharyngeal/epiglottal", "Glottal"]]
+	output.append(["Ejective", "Stop"])
+	output.append(["", "Fricative"])
+	output.append(["", "Lateral fricative"])
+	output.append(["Click", "Tenuis"])
+	output.append(["", "Voiced"])
+	output.append(["", "Nasal"])
+	output.append(["", "Tenuis lateral"])
+	output.append(["", "Voiced lateral"])
+	output.append(["", "Nasal lateral"])
+	output.append(["Implosive", "Voiced"])
+	output.append(["", "Voiceless"])
+
+	placeDict = {
+		"bilabial": "Bilabial",
+		"labiodental": "Labio-dental",
+		"linguolabial": "Linguo-labial",
+		"dental": "Dental",
+		"alveolar": "Alveolar",
+		"postalveolar": "Post-alveolar",
+		"retroflex": "Retro-flex",
+		"palatal": "Palatal",
+		"velar": "Velar",
+		"uvular": "Uvular",
+		"pharyngeal": "Pharyngeal/epiglottal",
+		"glottal": "Glottal"
+	}
+
+	columnCount = len(output[0])
+	for i, r in enumerate(output):
+		while len(r) < columnCount:
+			output[i].append("")
+
+	# for c in consonants:
+		# if c.type == "nonpulmonic":
+
+	print(tabulate(output, tablefmt="simple_grid"))
+
+def trimTable(table):
+	for i, r in enumerate(table):
+		for j, e in enumerate(r):
+			if e == ['', '']:
+				table[i][j] = ''
+			elif type(e) is list and e[0] == '':
+				table[i][j] = '   ' + e[1]
+			elif type(e) is list and e[1] == '':
+				table[i][j] = '   ' + e[0]
+			elif type(e) is list:
+				table[i][j] = e[0] + '  ' + e[1]
+	return table

@@ -38,21 +38,22 @@ def testPhonologyGen():
 	for v in selectedVowels:
 		print(repr(v))
 
-# def updateJsonFile():
-# 	consonants = createAllIpaConsonants()
-# 	output = []
-# 	for c in consonants:
-# 		output.append({
-# 			"descriptiveName": c.descriptiveName,
-# 			"ipaChar": c.ipaChar,
-# 			"commonness": c.commonness,
-# 			"phonation": c.phonation,
-# 			"manner": c.manner,
-# 			"place": c.place,
-# 			"pulmonic": c.pulmonic
-# 			})
-# 	f = open("newIpaConsonants.json", "w")
-# 	json.dump(output, f, indent=2)
+def updateJsonFile():
+	consonants = createAllIpaConsonants()
+	output = []
+	for c in consonants:
+		output.append({
+			"descriptiveName": c.descriptiveName,
+			"ipaChar": c.ipaChar,
+			"commonness": c.commonness,
+			"phonation": c.phonation,
+			"manner": c.manner,
+			"place": c.place,
+			"type": c.type
+			})
+	f = open("newIpaConsonants.json", "w")
+	json.dump(output, f, indent=2)
 
 if __name__ == '__main__':
-	displayPhonology((createAllIpaConsonants(), []))
+	create3VowelSystem()
+	create5VowelSystem()

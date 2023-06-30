@@ -1376,8 +1376,7 @@
       "click"
     ],
     "place": [
-      "bilabial",
-      "velar"
+      "bilabial"
     ],
     "type": "nonpulmonic"
   },
@@ -1390,8 +1389,7 @@
       "click"
     ],
     "place": [
-      "dental",
-      "velar"
+      "dental"
     ],
     "type": "nonpulmonic"
   },
@@ -1404,8 +1402,7 @@
       "click"
     ],
     "place": [
-      "alveolar",
-      "velar"
+      "alveolar"
     ],
     "type": "nonpulmonic"
   },
@@ -1418,8 +1415,7 @@
       "click"
     ],
     "place": [
-      "palatal",
-      "velar"
+      "palatal"
     ],
     "type": "nonpulmonic"
   },
@@ -1432,8 +1428,7 @@
       "click"
     ],
     "place": [
-      "bilabial",
-      "velar"
+      "bilabial"
     ],
     "type": "nonpulmonic"
   },
@@ -1446,8 +1441,7 @@
       "click"
     ],
     "place": [
-      "dental",
-      "velar"
+      "dental"
     ],
     "type": "nonpulmonic"
   },
@@ -1460,8 +1454,7 @@
       "click"
     ],
     "place": [
-      "alveolar",
-      "velar"
+      "alveolar"
     ],
     "type": "nonpulmonic"
   },
@@ -1474,8 +1467,7 @@
       "click"
     ],
     "place": [
-      "palatal",
-      "velar"
+      "palatal"
     ],
     "type": "nonpulmonic"
   },
@@ -1489,8 +1481,7 @@
       "click"
     ],
     "place": [
-      "bilabial",
-      "velar"
+      "bilabial"
     ],
     "type": "nonpulmonic"
   },
@@ -1504,8 +1495,7 @@
       "click"
     ],
     "place": [
-      "dental",
-      "velar"
+      "dental"
     ],
     "type": "nonpulmonic"
   },
@@ -1538,12 +1528,12 @@
     "type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessLateralClick",
+    "descriptiveName": "VoicelessVelarClick",
     "ipaChar": "k\u0361\u01c1",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
-      "lateralclick"
+      "click"
     ],
     "place": [
       "velar"
@@ -1551,12 +1541,12 @@
     "type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedLateralClick",
+    "descriptiveName": "VoicedLateralVelarClick",
     "ipaChar": "\u0261\u0361\u01c1",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
-      "lateralclick"
+      "click"
     ],
     "place": [
       "velar"
@@ -1564,13 +1554,13 @@
     "type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedNasalLateralClick",
+    "descriptiveName": "VoicedNasalLateralVelarClick",
     "ipaChar": "\u014b\u0361\u01c1",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
       "nasal",
-      "lateralclick"
+      "click"
     ],
     "place": [
       "velar"
