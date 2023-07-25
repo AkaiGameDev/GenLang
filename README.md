@@ -1,6 +1,32 @@
 # GenLang
 Procedural language generation for games
 
+## Quick Start
+
+Navigate to the `Python Scripts` directory.
+Install dependencies: 
+```
+json
+math
+numpy
+random
+tabulate
+```
+
+Then edit the file
+`main.py` and replace its contents with your choice of top-level 
+functions, e.g. `testWordGen()` and `testPhonologyGen()`.
+Run the file with
+
+```
+$ python3 main.py
+```
+
+And you should see corresponding output, different every time you run the
+script.
+
+## Additional Information
+
 [Documents](https://drive.google.com/drive/folders/1hwFurYApXAu_IjkHNm_bkzgL_6DLucYc?usp=sharing)
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]

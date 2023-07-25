@@ -1,3 +1,5 @@
+import sys
+import types
 from phonologyGen import *
 from wordGen import *
 import json
@@ -54,6 +56,21 @@ def updateJsonFile():
 	f = open("newIpaConsonants.json", "w")
 	json.dump(output, f, indent=2)
 
+def imports():
+    imp = []
+    for name, val in globals().items():
+        if isinstance(val, types.ModuleType):
+            imp.append(val.__name__)
+    return imp
+
+def showDependencies():
+    print (sys.modules.keys())
+    print ("Modules:\n")
+    print (imports())
+    
+
 if __name__ == '__main__':
-	create3VowelSystem()
-	create5VowelSystem()
+	# create3VowelSystem()
+	# create5VowelSystem()
+    # testWordGen()
+    testPhonologyGen()
