@@ -14,6 +14,7 @@ math
 numpy
 random
 tabulate
+matplotlib
 ```
 
 Then edit the file
