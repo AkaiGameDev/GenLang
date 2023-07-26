@@ -1,224 +1,224 @@
 [
   {
-    "descriptiveName": "CloseFrontUnroundedVowel",
-    "ipaChar": "i",
+    "descriptive_name": "CloseFrontUnroundedVowel",
+    "ipa_char": "i",
     "height": "close",
     "roundedness": "unrounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "CloseFrontRoundedVowel",
-    "ipaChar": "y",
+    "descriptive_name": "CloseFrontRoundedVowel",
+    "ipa_char": "y",
     "height": "close",
     "roundedness": "rounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "CloseCentralUnroundedVowel",
-    "ipaChar": "\u0268",
+    "descriptive_name": "CloseCentralUnroundedVowel",
+    "ipa_char": "\u0268",
     "height": "close",
     "roundedness": "unrounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "CloseCentralRoundedVowel",
-    "ipaChar": "\u0289",
+    "descriptive_name": "CloseCentralRoundedVowel",
+    "ipa_char": "\u0289",
     "height": "close",
     "roundedness": "rounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "CloseBackUnroundedVowel",
-    "ipaChar": "\u026f",
+    "descriptive_name": "CloseBackUnroundedVowel",
+    "ipa_char": "\u026f",
     "height": "close",
     "roundedness": "unrounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "CloseBackRoundedVowel",
-    "ipaChar": "u",
+    "descriptive_name": "CloseBackRoundedVowel",
+    "ipa_char": "u",
     "height": "close",
     "roundedness": "rounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "NearcloseNearfrontUnroundedVowel",
-    "ipaChar": "\u026a",
+    "descriptive_name": "NearcloseNearfrontUnroundedVowel",
+    "ipa_char": "\u026a",
     "height": "nearclose",
     "roundedness": "unrounded",
     "backness": "nearfront"
   },
   {
-    "descriptiveName": "NearcloseNearfrontRoundedVowel",
-    "ipaChar": "\u028f",
+    "descriptive_name": "NearcloseNearfrontRoundedVowel",
+    "ipa_char": "\u028f",
     "height": "nearclose",
     "roundedness": "rounded",
     "backness": "nearfront"
   },
   {
-    "descriptiveName": "NearcloseNearbackRoundedVowel",
-    "ipaChar": "\u028a",
+    "descriptive_name": "NearcloseNearbackRoundedVowel",
+    "ipa_char": "\u028a",
     "height": "nearclose",
     "roundedness": "rounded",
     "backness": "nearback"
   },
   {
-    "descriptiveName": "ClosemidFrontUnroundedVowel",
-    "ipaChar": "e",
+    "descriptive_name": "ClosemidFrontUnroundedVowel",
+    "ipa_char": "e",
     "height": "closemid",
     "roundedness": "unrounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "ClosemidFrontRoundedVowel",
-    "ipaChar": "\u00f8",
+    "descriptive_name": "ClosemidFrontRoundedVowel",
+    "ipa_char": "\u00f8",
     "height": "closemid",
     "roundedness": "rounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "ClosemidCentralUnroundedVowel",
-    "ipaChar": "\u0258",
+    "descriptive_name": "ClosemidCentralUnroundedVowel",
+    "ipa_char": "\u0258",
     "height": "closemid",
     "roundedness": "unrounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "ClosemidCentralRoundedVowel",
-    "ipaChar": "\u0275",
+    "descriptive_name": "ClosemidCentralRoundedVowel",
+    "ipa_char": "\u0275",
     "height": "closemid",
     "roundedness": "rounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "ClosemidBackUnroundedVowel",
-    "ipaChar": "\u0264",
+    "descriptive_name": "ClosemidBackUnroundedVowel",
+    "ipa_char": "\u0264",
     "height": "closemid",
     "roundedness": "unrounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "ClosemidBackRoundedVowel",
-    "ipaChar": "o",
+    "descriptive_name": "ClosemidBackRoundedVowel",
+    "ipa_char": "o",
     "height": "closemid",
     "roundedness": "rounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "MidFrontUnroundedVowel",
-    "ipaChar": "e\u031e",
+    "descriptive_name": "MidFrontUnroundedVowel",
+    "ipa_char": "e\u031e",
     "height": "mid",
     "roundedness": "unrounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "MidFrontRoundedVowel",
-    "ipaChar": "\u00f8\u031e",
+    "descriptive_name": "MidFrontRoundedVowel",
+    "ipa_char": "\u00f8\u031e",
     "height": "mid",
     "roundedness": "rounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "MidCentralUnroundedVowel",
-    "ipaChar": "\u0259",
+    "descriptive_name": "MidCentralUnroundedVowel",
+    "ipa_char": "\u0259",
     "height": "mid",
     "roundedness": "unrounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "MidBackUnroundedVowel",
-    "ipaChar": "\u0264\u031e",
+    "descriptive_name": "MidBackUnroundedVowel",
+    "ipa_char": "\u0264\u031e",
     "height": "mid",
     "roundedness": "unrounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "MidBackRoundedVowel",
-    "ipaChar": "o\u031e",
+    "descriptive_name": "MidBackRoundedVowel",
+    "ipa_char": "o\u031e",
     "height": "mid",
     "roundedness": "rounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "OpenmidFrontUnroundedVowel",
-    "ipaChar": "\u025b",
+    "descriptive_name": "OpenmidFrontUnroundedVowel",
+    "ipa_char": "\u025b",
     "height": "openmid",
     "roundedness": "unrounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "OpenmidFrontRoundedVowel",
-    "ipaChar": "\u0153",
+    "descriptive_name": "OpenmidFrontRoundedVowel",
+    "ipa_char": "\u0153",
     "height": "openmid",
     "roundedness": "rounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "OpenMidCentralUnroundedVowel",
-    "ipaChar": "\u025c",
+    "descriptive_name": "OpenMidCentralUnroundedVowel",
+    "ipa_char": "\u025c",
     "height": "mid",
     "roundedness": "unrounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "OpenMidCentralRoundedVowel",
-    "ipaChar": "\u025e",
+    "descriptive_name": "OpenMidCentralRoundedVowel",
+    "ipa_char": "\u025e",
     "height": "mid",
     "roundedness": "rounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "OpenmidBackUnroundedVowel",
-    "ipaChar": "\u028c",
+    "descriptive_name": "OpenmidBackUnroundedVowel",
+    "ipa_char": "\u028c",
     "height": "openmid",
     "roundedness": "unrounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "OpenmidBackRoundedVowel",
-    "ipaChar": "\u0254",
+    "descriptive_name": "OpenmidBackRoundedVowel",
+    "ipa_char": "\u0254",
     "height": "openmid",
     "roundedness": "rounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "NearopenFrontUnroundedVowel",
-    "ipaChar": "\u00e6",
+    "descriptive_name": "NearopenFrontUnroundedVowel",
+    "ipa_char": "\u00e6",
     "height": "nearopen",
     "roundedness": "unrounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "NearopenCentralUnroundedVowel",
-    "ipaChar": "\u0250",
+    "descriptive_name": "NearopenCentralUnroundedVowel",
+    "ipa_char": "\u0250",
     "height": "nearopen",
     "roundedness": "unrounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "OpenFrontUnroundedVowel",
-    "ipaChar": "a",
+    "descriptive_name": "OpenFrontUnroundedVowel",
+    "ipa_char": "a",
     "height": "open",
     "roundedness": "unrounded",
     "backness": "front"
   },
   {
-    "descriptiveName": "OpenCentralUnroundedVowel",
-    "ipaChar": "\u00e4",
+    "descriptive_name": "OpenCentralUnroundedVowel",
+    "ipa_char": "\u00e4",
     "height": "open",
     "roundedness": "unrounded",
     "backness": "central"
   },
   {
-    "descriptiveName": "OpenBackUnroundedVowel",
-    "ipaChar": "\u0251",
+    "descriptive_name": "OpenBackUnroundedVowel",
+    "ipa_char": "\u0251",
     "height": "open",
     "roundedness": "unrounded",
     "backness": "back"
   },
   {
-    "descriptiveName": "OpenBackRoundedVowel",
-    "ipaChar": "\u0252",
+    "descriptive_name": "OpenBackRoundedVowel",
+    "ipa_char": "\u0252",
     "height": "open",
     "roundedness": "rounded",
     "backness": "back"

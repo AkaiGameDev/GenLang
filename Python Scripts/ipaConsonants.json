@@ -1,7 +1,7 @@
 [
   {
-    "descriptiveName": "VoicelessBilabialNasal",
-    "ipaChar": "m\u0325",
+    "descriptive_name": "VoicelessBilabialNasal",
+    "ipa_char": "m\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -10,11 +10,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedBilabialNasal",
-    "ipaChar": "m",
+    "descriptive_name": "VoicedBilabialNasal",
+    "ipa_char": "m",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -23,11 +23,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLabiodentalNasal",
-    "ipaChar": "\u0271",
+    "descriptive_name": "VoicedLabiodentalNasal",
+    "ipa_char": "\u0271",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -36,11 +36,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarNasal",
-    "ipaChar": "n\u0325",
+    "descriptive_name": "VoicelessAlveolarNasal",
+    "ipa_char": "n\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -49,11 +49,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarNasal",
-    "ipaChar": "n",
+    "descriptive_name": "VoicedAlveolarNasal",
+    "ipa_char": "n",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -62,11 +62,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexNasal",
-    "ipaChar": "\u0273",
+    "descriptive_name": "VoicedRetroflexNasal",
+    "ipa_char": "\u0273",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -75,11 +75,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessPalatalNasal",
-    "ipaChar": "\u0272\u030a",
+    "descriptive_name": "VoicelessPalatalNasal",
+    "ipa_char": "\u0272\u030a",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -88,11 +88,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalNasal",
-    "ipaChar": "\u0272",
+    "descriptive_name": "VoicedPalatalNasal",
+    "ipa_char": "\u0272",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -101,11 +101,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessVelarNasal",
-    "ipaChar": "\u014b\u030a",
+    "descriptive_name": "VoicelessVelarNasal",
+    "ipa_char": "\u014b\u030a",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -114,11 +114,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedVelarNasal",
-    "ipaChar": "\u014b",
+    "descriptive_name": "VoicedVelarNasal",
+    "ipa_char": "\u014b",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -127,11 +127,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedUvularNasal",
-    "ipaChar": "\u0274",
+    "descriptive_name": "VoicedUvularNasal",
+    "ipa_char": "\u0274",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -140,11 +140,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessBilabialPlosive",
-    "ipaChar": "p",
+    "descriptive_name": "VoicelessBilabialPlosive",
+    "ipa_char": "p",
     "commonness": "common",
     "phonation": "voiceless",
     "manner": [
@@ -153,11 +153,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedBilabialPlosive",
-    "ipaChar": "b",
+    "descriptive_name": "VoicedBilabialPlosive",
+    "ipa_char": "b",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -166,11 +166,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessLabiodentalPlosive",
-    "ipaChar": "p\u032a",
+    "descriptive_name": "VoicelessLabiodentalPlosive",
+    "ipa_char": "p\u032a",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -179,11 +179,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLabiodentalPlosive",
-    "ipaChar": "b\u032a",
+    "descriptive_name": "VoicedLabiodentalPlosive",
+    "ipa_char": "b\u032a",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -192,11 +192,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessLinguolabialPlosive",
-    "ipaChar": "t\u033c",
+    "descriptive_name": "VoicelessLinguolabialPlosive",
+    "ipa_char": "t\u033c",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -205,11 +205,11 @@
     "place": [
       "linguolabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLinguolabialPlosive",
-    "ipaChar": "d\u033c",
+    "descriptive_name": "VoicedLinguolabialPlosive",
+    "ipa_char": "d\u033c",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -218,11 +218,11 @@
     "place": [
       "linguolabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarPlosive",
-    "ipaChar": "t",
+    "descriptive_name": "VoicelessAlveolarPlosive",
+    "ipa_char": "t",
     "commonness": "common",
     "phonation": "voiceless",
     "manner": [
@@ -231,11 +231,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarPlosive",
-    "ipaChar": "d",
+    "descriptive_name": "VoicedAlveolarPlosive",
+    "ipa_char": "d",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -244,11 +244,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessRetroflexPlosive",
-    "ipaChar": "\u0288",
+    "descriptive_name": "VoicelessRetroflexPlosive",
+    "ipa_char": "\u0288",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -257,11 +257,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexPlosive",
-    "ipaChar": "\u0256",
+    "descriptive_name": "VoicedRetroflexPlosive",
+    "ipa_char": "\u0256",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -270,11 +270,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessPalatalPlosive",
-    "ipaChar": "c",
+    "descriptive_name": "VoicelessPalatalPlosive",
+    "ipa_char": "c",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -283,11 +283,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalPlosive",
-    "ipaChar": "\u025f",
+    "descriptive_name": "VoicedPalatalPlosive",
+    "ipa_char": "\u025f",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -296,11 +296,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessVelarPlosive",
-    "ipaChar": "k",
+    "descriptive_name": "VoicelessVelarPlosive",
+    "ipa_char": "k",
     "commonness": "common",
     "phonation": "voiceless",
     "manner": [
@@ -309,11 +309,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedVelarPlosive",
-    "ipaChar": "g",
+    "descriptive_name": "VoicedVelarPlosive",
+    "ipa_char": "g",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -322,11 +322,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessUvularPlosive",
-    "ipaChar": "q",
+    "descriptive_name": "VoicelessUvularPlosive",
+    "ipa_char": "q",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -335,11 +335,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedUvularPlosive",
-    "ipaChar": "\u0262",
+    "descriptive_name": "VoicedUvularPlosive",
+    "ipa_char": "\u0262",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -348,11 +348,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "EpiglottalPlosive",
-    "ipaChar": "\u02a1",
+    "descriptive_name": "EpiglottalPlosive",
+    "ipa_char": "\u02a1",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -361,11 +361,11 @@
     "place": [
       "pharyngeal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "GlottalStop",
-    "ipaChar": "\u0294",
+    "descriptive_name": "GlottalStop",
+    "ipa_char": "\u0294",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -374,11 +374,11 @@
     "place": [
       "glottal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarSibilant",
-    "ipaChar": "s",
+    "descriptive_name": "VoicelessAlveolarSibilant",
+    "ipa_char": "s",
     "commonness": "common",
     "phonation": "voiceless",
     "manner": [
@@ -387,11 +387,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarSibilant",
-    "ipaChar": "z",
+    "descriptive_name": "VoicedAlveolarSibilant",
+    "ipa_char": "z",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -400,11 +400,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessPostalveolarSibilant",
-    "ipaChar": "\u0283",
+    "descriptive_name": "VoicelessPostalveolarSibilant",
+    "ipa_char": "\u0283",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -413,11 +413,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPostalveolarSibilant",
-    "ipaChar": "\u0292",
+    "descriptive_name": "VoicedPostalveolarSibilant",
+    "ipa_char": "\u0292",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -426,11 +426,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessRetroflexSibilant",
-    "ipaChar": "\u0282",
+    "descriptive_name": "VoicelessRetroflexSibilant",
+    "ipa_char": "\u0282",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -439,11 +439,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexSibilant",
-    "ipaChar": "\u0290",
+    "descriptive_name": "VoicedRetroflexSibilant",
+    "ipa_char": "\u0290",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -452,11 +452,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolopalatalSibilant",
-    "ipaChar": "\u0255",
+    "descriptive_name": "VoicelessAlveolopalatalSibilant",
+    "ipa_char": "\u0255",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -465,11 +465,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolopalatalSibilant",
-    "ipaChar": "\u0291",
+    "descriptive_name": "VoicedAlveolopalatalSibilant",
+    "ipa_char": "\u0291",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -478,11 +478,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessBilabialFricative",
-    "ipaChar": "\u0278",
+    "descriptive_name": "VoicelessBilabialFricative",
+    "ipa_char": "\u0278",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -491,11 +491,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedBilabialFricative",
-    "ipaChar": "\u03b2",
+    "descriptive_name": "VoicedBilabialFricative",
+    "ipa_char": "\u03b2",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -504,11 +504,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessLabiodentalFricative",
-    "ipaChar": "f",
+    "descriptive_name": "VoicelessLabiodentalFricative",
+    "ipa_char": "f",
     "commonness": "common",
     "phonation": "voiceless",
     "manner": [
@@ -517,11 +517,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLabiodentalFricative",
-    "ipaChar": "v",
+    "descriptive_name": "VoicedLabiodentalFricative",
+    "ipa_char": "v",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -530,11 +530,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessLinguolabialFricative",
-    "ipaChar": "\u03b8\u033c",
+    "descriptive_name": "VoicelessLinguolabialFricative",
+    "ipa_char": "\u03b8\u033c",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -543,11 +543,11 @@
     "place": [
       "linguolabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLinguolabialFricative",
-    "ipaChar": "\u00f0\u033c",
+    "descriptive_name": "VoicedLinguolabialFricative",
+    "ipa_char": "\u00f0\u033c",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -556,11 +556,11 @@
     "place": [
       "linguolabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessDentalFricative",
-    "ipaChar": "\u03b8",
+    "descriptive_name": "VoicelessDentalFricative",
+    "ipa_char": "\u03b8",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -569,11 +569,11 @@
     "place": [
       "dental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedDentalFricative",
-    "ipaChar": "\u00f0",
+    "descriptive_name": "VoicedDentalFricative",
+    "ipa_char": "\u00f0",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -582,11 +582,11 @@
     "place": [
       "dental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarFricative",
-    "ipaChar": "\u03b8\u0320",
+    "descriptive_name": "VoicelessAlveolarFricative",
+    "ipa_char": "\u03b8\u0320",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -595,11 +595,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarFricative",
-    "ipaChar": "\u00f0\u0320",
+    "descriptive_name": "VoicedAlveolarFricative",
+    "ipa_char": "\u00f0\u0320",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -608,11 +608,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessPostalveolarFricative",
-    "ipaChar": "\u0279\u0320\u030a\u02d4",
+    "descriptive_name": "VoicelessPostalveolarFricative",
+    "ipa_char": "\u0279\u0320\u030a\u02d4",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -621,11 +621,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPostalveolarFricative",
-    "ipaChar": "\u0279\u0320\u02d4",
+    "descriptive_name": "VoicedPostalveolarFricative",
+    "ipa_char": "\u0279\u0320\u02d4",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -634,11 +634,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessRetroflexFricative",
-    "ipaChar": "\u027b\u031d\u030a",
+    "descriptive_name": "VoicelessRetroflexFricative",
+    "ipa_char": "\u027b\u031d\u030a",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -647,11 +647,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexFricative",
-    "ipaChar": "\u027b\u031d",
+    "descriptive_name": "VoicedRetroflexFricative",
+    "ipa_char": "\u027b\u031d",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -660,11 +660,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessPalatalFricative",
-    "ipaChar": "\u00e7",
+    "descriptive_name": "VoicelessPalatalFricative",
+    "ipa_char": "\u00e7",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -673,11 +673,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalFricative",
-    "ipaChar": "\u029d",
+    "descriptive_name": "VoicedPalatalFricative",
+    "ipa_char": "\u029d",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -686,11 +686,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessVelarFricative",
-    "ipaChar": "x",
+    "descriptive_name": "VoicelessVelarFricative",
+    "ipa_char": "x",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -699,11 +699,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedVelarFricative",
-    "ipaChar": "\u0263",
+    "descriptive_name": "VoicedVelarFricative",
+    "ipa_char": "\u0263",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -712,11 +712,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessUvularFricative",
-    "ipaChar": "\u03c7",
+    "descriptive_name": "VoicelessUvularFricative",
+    "ipa_char": "\u03c7",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -725,11 +725,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedUvularFricative",
-    "ipaChar": "\u0281",
+    "descriptive_name": "VoicedUvularFricative",
+    "ipa_char": "\u0281",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -738,11 +738,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessPharyngealFricative",
-    "ipaChar": "\u0127",
+    "descriptive_name": "VoicelessPharyngealFricative",
+    "ipa_char": "\u0127",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -751,11 +751,11 @@
     "place": [
       "pharyngeal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPharyngealFricative",
-    "ipaChar": "\u0295",
+    "descriptive_name": "VoicedPharyngealFricative",
+    "ipa_char": "\u0295",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -764,11 +764,11 @@
     "place": [
       "pharyngeal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessGlottalFricative",
-    "ipaChar": "h",
+    "descriptive_name": "VoicelessGlottalFricative",
+    "ipa_char": "h",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -777,11 +777,11 @@
     "place": [
       "glottal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedGlottalFricative",
-    "ipaChar": "\u0266",
+    "descriptive_name": "VoicedGlottalFricative",
+    "ipa_char": "\u0266",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -790,11 +790,11 @@
     "place": [
       "glottal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLabiodentalApproximant",
-    "ipaChar": "\u028b",
+    "descriptive_name": "VoicedLabiodentalApproximant",
+    "ipa_char": "\u028b",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -803,11 +803,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarApproximant",
-    "ipaChar": "\u0279",
+    "descriptive_name": "VoicedAlveolarApproximant",
+    "ipa_char": "\u0279",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -816,11 +816,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexApproximant",
-    "ipaChar": "\u027b",
+    "descriptive_name": "VoicedRetroflexApproximant",
+    "ipa_char": "\u027b",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -829,11 +829,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalApproximant",
-    "ipaChar": "j",
+    "descriptive_name": "VoicedPalatalApproximant",
+    "ipa_char": "j",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -842,11 +842,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedVelarApproximant",
-    "ipaChar": "\u0270",
+    "descriptive_name": "VoicedVelarApproximant",
+    "ipa_char": "\u0270",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -855,11 +855,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedLabiodentalFlap",
-    "ipaChar": "\u2c71",
+    "descriptive_name": "VoicedLabiodentalFlap",
+    "ipa_char": "\u2c71",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -868,11 +868,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarFlap",
-    "ipaChar": "\u027e",
+    "descriptive_name": "VoicedAlveolarFlap",
+    "ipa_char": "\u027e",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -881,11 +881,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexFlap",
-    "ipaChar": "\u027d",
+    "descriptive_name": "VoicedRetroflexFlap",
+    "ipa_char": "\u027d",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -894,11 +894,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedBilabialTrill",
-    "ipaChar": "\u0299",
+    "descriptive_name": "VoicedBilabialTrill",
+    "ipa_char": "\u0299",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -907,11 +907,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarTrill",
-    "ipaChar": "r\u0325",
+    "descriptive_name": "VoicelessAlveolarTrill",
+    "ipa_char": "r\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -920,11 +920,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarTrill",
-    "ipaChar": "r",
+    "descriptive_name": "VoicedAlveolarTrill",
+    "ipa_char": "r",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -933,11 +933,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessUvularTrill",
-    "ipaChar": "\u0280\u0325",
+    "descriptive_name": "VoicelessUvularTrill",
+    "ipa_char": "\u0280\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -946,11 +946,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedUvularTrill",
-    "ipaChar": "\u0280",
+    "descriptive_name": "VoicedUvularTrill",
+    "ipa_char": "\u0280",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -959,11 +959,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelssPharyngealTrill",
-    "ipaChar": "\u029c",
+    "descriptive_name": "VoicelssPharyngealTrill",
+    "ipa_char": "\u029c",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -972,11 +972,11 @@
     "place": [
       "pharyngeal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPharyngealTrill",
-    "ipaChar": "\u02a2",
+    "descriptive_name": "VoicedPharyngealTrill",
+    "ipa_char": "\u02a2",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -985,11 +985,11 @@
     "place": [
       "pharyngeal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarLateralFricative",
-    "ipaChar": "\u026c",
+    "descriptive_name": "VoicelessAlveolarLateralFricative",
+    "ipa_char": "\u026c",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -998,11 +998,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarLateralFricative",
-    "ipaChar": "\u026e",
+    "descriptive_name": "VoicedAlveolarLateralFricative",
+    "ipa_char": "\u026e",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1011,11 +1011,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessRetroflexLateralFricative",
-    "ipaChar": "\ua78e",
+    "descriptive_name": "VoicelessRetroflexLateralFricative",
+    "ipa_char": "\ua78e",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1024,11 +1024,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarLateralApproximant",
-    "ipaChar": "l",
+    "descriptive_name": "VoicedAlveolarLateralApproximant",
+    "ipa_char": "l",
     "commonness": "common",
     "phonation": "voiced",
     "manner": [
@@ -1037,11 +1037,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedRetroflexLateralApproximant",
-    "ipaChar": "\u026d",
+    "descriptive_name": "VoicedRetroflexLateralApproximant",
+    "ipa_char": "\u026d",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1050,11 +1050,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalLateralApproximant",
-    "ipaChar": "\u028e",
+    "descriptive_name": "VoicedPalatalLateralApproximant",
+    "ipa_char": "\u028e",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1063,11 +1063,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedVelarLateralApproximant",
-    "ipaChar": "\u029f",
+    "descriptive_name": "VoicedVelarLateralApproximant",
+    "ipa_char": "\u029f",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1076,11 +1076,11 @@
     "place": [
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedUvularLateralApproximant",
-    "ipaChar": "\u029f\u0320",
+    "descriptive_name": "VoicedUvularLateralApproximant",
+    "ipa_char": "\u029f\u0320",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1089,11 +1089,11 @@
     "place": [
       "uvular"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarLateralFlap",
-    "ipaChar": "\u027a\u0325",
+    "descriptive_name": "VoicelessAlveolarLateralFlap",
+    "ipa_char": "\u027a\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1102,11 +1102,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarLateralFlap",
-    "ipaChar": "\u027a",
+    "descriptive_name": "VoicedAlveolarLateralFlap",
+    "ipa_char": "\u027a",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1115,11 +1115,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalLateralFlap",
-    "ipaChar": "\u028e\u0306",
+    "descriptive_name": "VoicedPalatalLateralFlap",
+    "ipa_char": "\u028e\u0306",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1128,11 +1128,11 @@
     "place": [
       "palatal"
     ],
-    "type": "pulmonic"
+    "sound_type": "pulmonic"
   },
   {
-    "descriptiveName": "BilabialEjectiveStop",
-    "ipaChar": "p\u02bc",
+    "descriptive_name": "BilabialEjectiveStop",
+    "ipa_char": "p\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1142,11 +1142,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "AlveolarEjectiveStop",
-    "ipaChar": "t\u02bc",
+    "descriptive_name": "AlveolarEjectiveStop",
+    "ipa_char": "t\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1156,11 +1156,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "RetroflexEjectiveStop",
-    "ipaChar": "\u0288\u02bc",
+    "descriptive_name": "RetroflexEjectiveStop",
+    "ipa_char": "\u0288\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1170,11 +1170,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "PalatalEjectiveStop",
-    "ipaChar": "c\u02bc",
+    "descriptive_name": "PalatalEjectiveStop",
+    "ipa_char": "c\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1184,11 +1184,11 @@
     "place": [
       "palatal"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VelarEjectiveStop",
-    "ipaChar": "k\u02bc",
+    "descriptive_name": "VelarEjectiveStop",
+    "ipa_char": "k\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1198,11 +1198,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "UvularEjectiveStop",
-    "ipaChar": "q\u02bc",
+    "descriptive_name": "UvularEjectiveStop",
+    "ipa_char": "q\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1212,24 +1212,25 @@
     "place": [
       "uvular"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "EpiglottalEjective",
-    "ipaChar": "\u02a1\u02bc",
+    "descriptive_name": "EpiglottalEjective",
+    "ipa_char": "\u02a1\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
+      "plosive",
       "ejective"
     ],
     "place": [
       "pharyngeal"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "BilabialEjectiveFricative",
-    "ipaChar": "\u0278\u02bc",
+    "descriptive_name": "BilabialEjectiveFricative",
+    "ipa_char": "\u0278\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1239,11 +1240,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "LabiodentalEjectiveFricative",
-    "ipaChar": "f\u02bc",
+    "descriptive_name": "LabiodentalEjectiveFricative",
+    "ipa_char": "f\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1253,11 +1254,11 @@
     "place": [
       "labiodental"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "DentalEjectiveFricative",
-    "ipaChar": "\u03b8\u02bc",
+    "descriptive_name": "DentalEjectiveFricative",
+    "ipa_char": "\u03b8\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1267,11 +1268,11 @@
     "place": [
       "dental"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "AlveolarEjectiveFricative",
-    "ipaChar": "s\u02bc",
+    "descriptive_name": "AlveolarEjectiveFricative",
+    "ipa_char": "s\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1281,11 +1282,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "PostalveolarEjectiveFricative",
-    "ipaChar": "\u0283\u02bc",
+    "descriptive_name": "PostalveolarEjectiveFricative",
+    "ipa_char": "\u0283\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1295,11 +1296,11 @@
     "place": [
       "postalveolar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "RetroflexEjectiveFricative",
-    "ipaChar": "\u0282\u02bc",
+    "descriptive_name": "RetroflexEjectiveFricative",
+    "ipa_char": "\u0282\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1309,11 +1310,11 @@
     "place": [
       "retroflex"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "PalatalEjectiveFricative",
-    "ipaChar": "\u0255\u02bc",
+    "descriptive_name": "PalatalEjectiveFricative",
+    "ipa_char": "\u0255\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1323,11 +1324,11 @@
     "place": [
       "palatal"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VelarEjectiveFricative",
-    "ipaChar": "x\u02bc",
+    "descriptive_name": "VelarEjectiveFricative",
+    "ipa_char": "x\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1337,11 +1338,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "UvularEjectiveFricative",
-    "ipaChar": "\u03c7\u02bc",
+    "descriptive_name": "UvularEjectiveFricative",
+    "ipa_char": "\u03c7\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1351,25 +1352,25 @@
     "place": [
       "uvular"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "AlveolarLateralEjectiveFricative",
-    "ipaChar": "\u026c\u02bc",
+    "descriptive_name": "AlveolarLateralEjectiveFricative",
+    "ipa_char": "\u026c\u02bc",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
-      "fricative",
+      "lateralfricative",
       "ejective"
     ],
     "place": [
       "alveolar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessBilabialClick",
-    "ipaChar": "k\u0361\u0298",
+    "descriptive_name": "VoicelessBilabialClick",
+    "ipa_char": "k\u0361\u0298",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1379,11 +1380,11 @@
       "bilabial",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessDentalClick",
-    "ipaChar": "k\u0361\u01c0",
+    "descriptive_name": "VoicelessDentalClick",
+    "ipa_char": "k\u0361\u01c0",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1393,11 +1394,11 @@
       "dental",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarClick",
-    "ipaChar": "k\u0361\u01c3",
+    "descriptive_name": "VoicelessAlveolarClick",
+    "ipa_char": "k\u0361\u01c3",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1407,11 +1408,11 @@
       "alveolar",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessPalatalClick",
-    "ipaChar": "k\u0361\u01c2",
+    "descriptive_name": "VoicelessPalatalClick",
+    "ipa_char": "k\u0361\u01c2",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1421,11 +1422,11 @@
       "palatal",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedBilabialClick",
-    "ipaChar": "\u0261\u0361\u0298",
+    "descriptive_name": "VoicedBilabialClick",
+    "ipa_char": "\u0261\u0361\u0298",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1435,11 +1436,11 @@
       "bilabial",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedDentalClick",
-    "ipaChar": "\u0261\u0361\u01c0",
+    "descriptive_name": "VoicedDentalClick",
+    "ipa_char": "\u0261\u0361\u01c0",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1449,11 +1450,11 @@
       "dental",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarClick",
-    "ipaChar": "\u0261\u0361\u01c3",
+    "descriptive_name": "VoicedAlveolarClick",
+    "ipa_char": "\u0261\u0361\u01c3",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1463,11 +1464,11 @@
       "alveolar",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalClick",
-    "ipaChar": "\u0261\u0361\u01c2",
+    "descriptive_name": "VoicedPalatalClick",
+    "ipa_char": "\u0261\u0361\u01c2",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1477,11 +1478,11 @@
       "palatal",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedNasalBilabialClick",
-    "ipaChar": "\u014b\u0361\u0298",
+    "descriptive_name": "VoicedNasalBilabialClick",
+    "ipa_char": "\u014b\u0361\u0298",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1492,11 +1493,11 @@
       "bilabial",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedNasalDentalClick",
-    "ipaChar": "\u014b\u0361\u01c0",
+    "descriptive_name": "VoicedNasalDentalClick",
+    "ipa_char": "\u014b\u0361\u01c0",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1507,11 +1508,11 @@
       "dental",
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedNasalAlveolarClick",
-    "ipaChar": "\u014b\u0361\u01c3",
+    "descriptive_name": "VoicedNasalAlveolarClick",
+    "ipa_char": "\u014b\u0361\u01c3",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1519,13 +1520,14 @@
       "click"
     ],
     "place": [
-      "alveolar"
+      "alveolar",
+      "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedNasalPalatalClick",
-    "ipaChar": "\u014b\u0361\u01c2",
+    "descriptive_name": "VoicedNasalPalatalClick",
+    "ipa_char": "\u014b\u0361\u01c2",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1533,13 +1535,14 @@
       "click"
     ],
     "place": [
-      "palatal"
+      "palatal",
+      "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessLateralClick",
-    "ipaChar": "k\u0361\u01c1",
+    "descriptive_name": "VoicelessLateralClick",
+    "ipa_char": "k\u0361\u01c1",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1548,11 +1551,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedLateralClick",
-    "ipaChar": "\u0261\u0361\u01c1",
+    "descriptive_name": "VoicedLateralClick",
+    "ipa_char": "\u0261\u0361\u01c1",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1561,11 +1564,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedNasalLateralClick",
-    "ipaChar": "\u014b\u0361\u01c1",
+    "descriptive_name": "VoicedNasalLateralClick",
+    "ipa_char": "\u014b\u0361\u01c1",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1575,11 +1578,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedBilabialImplosive",
-    "ipaChar": "\u0253",
+    "descriptive_name": "VoicedBilabialImplosive",
+    "ipa_char": "\u0253",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1588,11 +1591,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessBilabialImplosive",
-    "ipaChar": "\u0253\u0325",
+    "descriptive_name": "VoicelessBilabialImplosive",
+    "ipa_char": "\u0253\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1601,11 +1604,11 @@
     "place": [
       "bilabial"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedAlveolarImplosive",
-    "ipaChar": "\u0257",
+    "descriptive_name": "VoicedAlveolarImplosive",
+    "ipa_char": "\u0257",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1614,11 +1617,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessAlveolarImplosive",
-    "ipaChar": "\u0257\u0325",
+    "descriptive_name": "VoicelessAlveolarImplosive",
+    "ipa_char": "\u0257\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1627,11 +1630,11 @@
     "place": [
       "alveolar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedPalatalImplosive",
-    "ipaChar": "\u0284",
+    "descriptive_name": "VoicedPalatalImplosive",
+    "ipa_char": "\u0284",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1640,11 +1643,11 @@
     "place": [
       "palatal"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessPalatalImplosive",
-    "ipaChar": "\u0284\u030a",
+    "descriptive_name": "VoicelessPalatalImplosive",
+    "ipa_char": "\u0284\u030a",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1653,11 +1656,11 @@
     "place": [
       "palatal"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedVelarImplosive",
-    "ipaChar": "\u0260",
+    "descriptive_name": "VoicedVelarImplosive",
+    "ipa_char": "\u0260",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1666,11 +1669,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessVelarImplosive",
-    "ipaChar": "\u0260\u030a",
+    "descriptive_name": "VoicelessVelarImplosive",
+    "ipa_char": "\u0260\u030a",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1679,11 +1682,11 @@
     "place": [
       "velar"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicelessUvularImplosive",
-    "ipaChar": "\u029b\u0325",
+    "descriptive_name": "VoicelessUvularImplosive",
+    "ipa_char": "\u029b\u0325",
     "commonness": "normal",
     "phonation": "voiceless",
     "manner": [
@@ -1692,11 +1695,11 @@
     "place": [
       "uvular"
     ],
-    "type": "nonpulmonic"
+    "sound_type": "nonpulmonic"
   },
   {
-    "descriptiveName": "VoicedLabialVelarApproximant",
-    "ipaChar": "w",
+    "descriptive_name": "VoicedLabialVelarApproximant",
+    "ipa_char": "w",
     "commonness": "normal",
     "phonation": "voiced",
     "manner": [
@@ -1706,6 +1709,6 @@
       "bilabial",
       "velar"
     ],
-    "type": "pulmonic"
+    "sound_type": "coarticulated"
   }
 ]
