@@ -1,5 +1,8 @@
 # GenLang
-Procedural language generation for games
+## Procedural language generation for games
+
+GenLang is a project to procedurally generate constructed (human)
+languages, AKA a conlangs.
 
 ## Quick Start
 
